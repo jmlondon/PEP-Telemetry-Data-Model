@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<StorageDesignOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g" name="Oracle Database 11g" id="2F968942-A207-E166-2A5B-9A792A165766">
-<createdBy>Josh.London@afsc.noaa.gov</createdBy>
-<createdTime>2013-03-26 18:25:06 UTC</createdTime>
-<ownerDesignName>Untitled_1</ownerDesignName>
-<siteID>32076570-2523-435C-2E92-BF29817DFF70</siteID>
-<siteName>Oracle Database 11g</siteName>
-<siteType>9</siteType>
-</StorageDesignOraclev11g>

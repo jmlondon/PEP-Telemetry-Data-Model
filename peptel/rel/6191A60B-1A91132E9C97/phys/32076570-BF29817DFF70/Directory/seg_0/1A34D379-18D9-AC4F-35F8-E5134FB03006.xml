@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<DirectoryOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DirectoryOraclev10g" name="PEPTELDATA" id="1A34D379-18D9-AC4F-35F8-E5134FB03006" directorySegmentName="seg_0">
-<sourceConnName>raja_peptel</sourceConnName>
-<sourceObjName>PEPTELDATA</sourceObjName>
-<createdBy>Josh.London@afsc.noaa.gov</createdBy>
-<createdTime>2013-03-26 18:25:07 UTC</createdTime>
-<ownerDesignName>peptel</ownerDesignName>
-<dirPath>/pepteldata</dirPath>
-</DirectoryOraclev10g>

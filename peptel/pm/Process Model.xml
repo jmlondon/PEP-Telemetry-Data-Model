@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="15D1B27E-1752-BA7D-A91D-04BF85EDAB6E">
-<createdBy>Josh.London@afsc.noaa.gov</createdBy>
-<createdTime>2013-03-26 18:18:02 UTC</createdTime>
-<ownerDesignName>peptel</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

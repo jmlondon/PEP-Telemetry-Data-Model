@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E7E1B9A0-FEA0-8DA3-790B-271B12BC9331" mainViewID="3A608508-0A98-8E07-43AD-4E936AAE9708">
-<createdBy>Josh.London@afsc.noaa.gov</createdBy>
-<createdTime>2013-03-26 18:18:02 UTC</createdTime>
-<ownerDesignName>peptel</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
