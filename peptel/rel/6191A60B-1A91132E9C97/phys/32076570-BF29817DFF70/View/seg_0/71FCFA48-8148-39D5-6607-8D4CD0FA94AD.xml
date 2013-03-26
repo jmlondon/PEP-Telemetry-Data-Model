@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="LOCATIONS_REPRO" id="71FCFA48-8148-39D5-6607-8D4CD0FA94AD" directorySegmentName="seg_0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:14 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</TableViewProxyOraclev10g>

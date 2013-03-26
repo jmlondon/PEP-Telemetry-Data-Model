@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PEPDRUGS" id="AEDCCF2A-F21D-949B-7406-6215C9A23002" directorySegmentName="seg_0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DC435EA2-A8CF-0E44-9300-EDE9F9553290</segment>
+<tableSpace>662A2188-6A44-53DE-1888-C133D410267D</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NOTES" id="1FA0A694-48DE-4C40-1C11-A481556914ED">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DRUG" id="3B85F343-57AB-3F14-AFFF-F4FBCC2DE319">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PEPCAPTUREDATA_SPENO" id="4928819F-221D-1861-59CB-F165E83C59AB">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:32:48 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DOSEID" id="510FFA64-302C-72A7-20B3-A23627C58EF5">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DOSE_TIME" id="7B7EA233-E81A-0DCF-68EA-D1D97AECFDDF">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DOSE_AMOUNT" id="7C2A45D0-AF22-555E-4D53-58A8D3795CE4">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DOSE_METHOD" id="8B05FCEC-D4F0-5790-7CCD-83B8305E610E">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SPENO" id="FF211D39-C593-F757-305A-A1F9D11D2FC7">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PEPDRUGS_PK" id="CF2A9B77-F82D-121F-2F3B-78853988CFE2">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:29:01 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

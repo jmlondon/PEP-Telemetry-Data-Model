@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="TAD" id="E29FC179-7614-CECC-1604-FD6A53C67DEB" directorySegmentName="seg_0">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>TAD</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:09 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<action>ON DEMAND</action>
+<defaultSegment>NO</defaultSegment>
+<refresh>YES</refresh>
+<refreshType>COMPLETE</refreshType>
+<subquery>SELECT&lt;br/&gt;    PEPDEPLOYMENTS.DEPLOYID,&lt;br/&gt;    PEPCAPTUREDATA.SPENO,&lt;br/&gt;    PEPCAPTUREDATA.PROJECTID,&lt;br/&gt;    PEPCAPTUREDATA.SPECIES,&lt;br/&gt;    PEPDEPLOYMENTS.DEPLOYDATE,&lt;br/&gt;    PEPTAGINFO.TAGTYPE,&lt;br/&gt;    PEPCAPTUREDATA.AGE,&lt;br/&gt;    PEPCAPTUREDATA.SEX,&lt;br/&gt;    HISTOS.DATADATETIME,&lt;br/&gt;    HISTOS.HISTTYPE,&lt;br/&gt;    HISTOS.BIN1 ABOVE4M,&lt;br/&gt;    nvl(HISTOS.BIN2,0) + nvl(HISTOS.BIN3,0) + nvl(HISTOS.BIN4,0) + nvl(HISTOS.BIN5,0) + nvl(HISTOS.BIN6,0) + nvl(HISTOS.BIN7,0) +&lt;br/&gt;    nvl(HISTOS.BIN8,0) + nvl(HISTOS.BIN9,0) + nvl(HISTOS.BIN10,0) + nvl(HISTOS.BIN11,0) + nvl(HISTOS.BIN12,0) + nvl(HISTOS.BIN13,0) +&lt;br/&gt;    nvl(HISTOS.BIN14,0) + nvl(HISTOS.BIN15,0) + nvl(HISTOS.BIN16,0) BELOW4M,&lt;br/&gt;    HISTOS.BIN1,&lt;br/&gt;    HISTOS.BIN2,&lt;br/&gt;    HISTOS.BIN3,&lt;br/&gt;    HISTOS.BIN4,&lt;br/&gt;    HISTOS.BIN5,&lt;br/&gt;    HISTOS.BIN6,&lt;br/&gt;    HISTOS.BIn7,&lt;br/&gt;    HISTOS.BIN8,&lt;br/&gt;    HISTOS.BIN9,&lt;br/&gt;    HISTOS.BIN10,&lt;br/&gt;    HISTOS.BIN11,&lt;br/&gt;    HISTOS.BIN12&lt;br/&gt;  FROM HISTOS&lt;br/&gt;  LEFT JOIN PEPDEPLOYMENTS&lt;br/&gt;  ON PEPDEPLOYMENTS.DEPLOYID = HISTOS.DEPLOYID&lt;br/&gt;  LEFT JOIN PEPCAPTUREDATA&lt;br/&gt;  ON PEPDEPLOYMENTS.SPENO = PEPCAPTUREDATA.SPENO&lt;br/&gt;  LEFT JOIN PEPTAGINFO&lt;br/&gt;  ON PEPDEPLOYMENTS.SERIALNUM = PEPTAGINFO.SERIALNUM&lt;br/&gt;  WHERE HISTOS.HISTTYPE = &apos;TAD&apos;</subquery>
+<useIndex>YES</useIndex>
+</SnapshotOraclev11g>

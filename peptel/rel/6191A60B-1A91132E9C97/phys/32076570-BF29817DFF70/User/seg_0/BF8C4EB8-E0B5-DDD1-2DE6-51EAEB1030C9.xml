@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PEPTEL" id="BF8C4EB8-E0B5-DDD1-2DE6-51EAEB1030C9" directorySegmentName="seg_0">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjName>PEPTEL</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:06 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<schemaObject>33560342-72FA-C24C-4801-F0101066F81E</schemaObject>
+</UserOraclev10g>

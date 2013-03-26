@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="33560342-72FA-C24C-4801-F0101066F81E" name="PEPTEL" seqName="seg_0"/>
+   <object objectType="Table" objectID="D4F66F56-CEBB-5929-CFE1-6F8833388A19" name="DIVEDEPTH" seqName="seg_0"/>
+   <object objectType="Table" objectID="22373D2E-9845-DB03-B33D-7C733610789F" name="DRYTIMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="61BE51DA-440A-9D87-550C-12DBC3E162DE" name="DRYTIMES_20" seqName="seg_0"/>
+   <object objectType="Table" objectID="14888BF8-C54D-E91F-3751-62DFD1201C09" name="HISTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="4B45C815-57CD-C37A-6290-7904C2D754FD" name="LOCATIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="79888862-8CC2-0A0B-4F83-CB5CD8C03F61" name="PEPCAPTUREDATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="87400359-998A-2932-146A-4015FB39D596" name="PEPDEPLOYMENTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AEDCCF2A-F21D-949B-7406-6215C9A23002" name="PEPDRUGS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1E94E354-96DE-2940-F36E-53D11610D09B" name="PEPMORPHS" seqName="seg_0"/>
+   <object objectType="Table" objectID="EF446081-D063-B742-D701-84DA1C038293" name="PEPSAMPLES" seqName="seg_0"/>
+   <object objectType="Table" objectID="939F62FF-AC50-7779-6C4C-A8A30691181B" name="PEPTAGINFO" seqName="seg_0"/>
+   <object objectType="Table" objectID="F7564F11-FB50-40C3-C5D2-7557DF58725E" name="STATUS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F2A25E6C-CEDC-C240-75A4-4C7629D18722" name="TAD" seqName="seg_0"/>
+   <object objectType="View" objectID="71FCFA48-8148-39D5-6607-8D4CD0FA94AD" name="LOCATIONS_REPRO" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

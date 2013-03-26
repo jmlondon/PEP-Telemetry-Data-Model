@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="LOCID_TRG" id="C9BE7F31-342E-55A8-02D5-C95B43591274" directorySegmentName="seg_0">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>LOCID_TRG</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:10 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;  v_id locations.locid%TYPE;&lt;br/&gt;BEGIN&lt;br/&gt;  -- Select a new value from the sequence into a local variable. As David&lt;br/&gt;  -- commented, this step is optional. You can directly select into :new.qname_id&lt;br/&gt;  SELECT loc_seq.nextval INTO v_id FROM DUAL;&lt;br/&gt;&lt;br/&gt;  -- :new references the record that you are about to insert into qname. Hence,&lt;br/&gt;  -- you can overwrite the value of :new.qname_id (qname.qname_id) with the value&lt;br/&gt;  -- obtained from your sequence, before inserting&lt;br/&gt;  :NEW.locid := v_id;&lt;br/&gt;END LOCID_TRG;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>new.locid is null</condition>
+<owner>BF8C4EB8-E0B5-DDD1-2DE6-51EAEB1030C9</owner>
+<table>4B45C815-57CD-C37A-6290-7904C2D754FD</table>
+</TriggerOraclev10g>

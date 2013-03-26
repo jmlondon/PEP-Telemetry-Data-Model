@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="DIVEDEPTH" id="D74E6017-9EFF-37A0-5D35-C54615BB0E29" directorySegmentName="seg_0">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>DIVEDEPTH</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<action>ON DEMAND</action>
+<defaultSegment>NO</defaultSegment>
+<refresh>YES</refresh>
+<refreshType>COMPLETE</refreshType>
+<subquery>SELECT&lt;br/&gt;    PEPDEPLOYMENTS.DEPLOYID,&lt;br/&gt;    PEPCAPTUREDATA.SPENO,&lt;br/&gt;    PEPCAPTUREDATA.PROJECTID,&lt;br/&gt;    PEPCAPTUREDATA.SPECIES,&lt;br/&gt;    PEPDEPLOYMENTS.DEPLOYDATE,&lt;br/&gt;    PEPTAGINFO.TAGTYPE,&lt;br/&gt;    PEPCAPTUREDATA.AGE,&lt;br/&gt;    PEPCAPTUREDATA.SEX,&lt;br/&gt;    HISTOS.DATADATETIME,&lt;br/&gt;    HISTOS.HISTTYPE,&lt;br/&gt;    HISTOS.BIN1,&lt;br/&gt;    HISTOS.BIN2,&lt;br/&gt;    HISTOS.BIN3,&lt;br/&gt;    HISTOS.BIN4,&lt;br/&gt;    HISTOS.BIN5,&lt;br/&gt;    HISTOS.BIN6,&lt;br/&gt;    HISTOS.BIn7,&lt;br/&gt;    HISTOS.BIN8,&lt;br/&gt;    HISTOS.BIN9,&lt;br/&gt;    HISTOS.BIN10,&lt;br/&gt;    HISTOS.BIN11,&lt;br/&gt;    HISTOS.BIN12,&lt;br/&gt;    HISTOS.BIN13,&lt;br/&gt;    HISTOS.BIN14&lt;br/&gt;  FROM&lt;br/&gt;    HISTOS&lt;br/&gt;  LEFT JOIN PEPDEPLOYMENTS&lt;br/&gt;  ON&lt;br/&gt;    PEPDEPLOYMENTS.DEPLOYID = HISTOS.DEPLOYID&lt;br/&gt;  LEFT JOIN PEPCAPTUREDATA&lt;br/&gt;  ON&lt;br/&gt;    PEPDEPLOYMENTS.SPENO = PEPCAPTUREDATA.SPENO&lt;br/&gt;  LEFT JOIN PEPTAGINFO&lt;br/&gt;  ON&lt;br/&gt;    PEPDEPLOYMENTS.SERIALNUM = PEPTAGINFO.SERIALNUM&lt;br/&gt;  WHERE&lt;br/&gt;    HISTOS.HISTTYPE = &apos;DiveDepth&apos;</subquery>
+<useIndex>YES</useIndex>
+</SnapshotOraclev11g>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="PEPTEL" id="33560342-72FA-C24C-4801-F0101066F81E" directorySegmentName="seg_0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:08 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<importedID>AA78AD84-1538-9C7C-1D57-9BD10FCCDE70</importedID>
+</SchemaObject>

@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ExternalTableOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableOraclev10g" name="XTARGOS_REPROCESS" id="B4F8123E-53B2-38D7-E76B-62F5C955887E" directorySegmentName="seg_0">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>XTARGOS_REPROCESS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<defaultdir>1A34D379-18D9-AC4F-35F8-E5134FB03006</defaultdir>
+<location>argos_reprocess.csv</location>
+<opaqueFormatSpec>RECORDS DELIMITED BY &quot;\n&quot;&lt;br/&gt;	SKIP 1&lt;br/&gt;	FIELDS TERMINATED BY &apos;,&apos; OPTIONALLY ENCLOSED BY &apos;&quot;&apos;&lt;br/&gt;    MISSING FIELD VALUES ARE NULL&lt;br/&gt;	        </opaqueFormatSpec>
+<owner>BF8C4EB8-E0B5-DDD1-2DE6-51EAEB1030C9</owner>
+<rejectLimit>0</rejectLimit>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="RECORDID" id="EC1E62CA-4FDE-1F5E-3364-FCD8BB1A208B">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>RECORDID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="PTT" id="DF2D4EAC-8CFB-77BC-6A24-37D98E0B9D0F">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>PTT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>5</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LATITUDE" id="49FC84FE-E1B4-E5FE-CDC4-83185BB223C6">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+<precision>12</precision>
+<scale>8</scale>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LONGITUDE" id="D2DBA785-09B9-2B12-A7B9-521B496B45E4">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+<precision>12</precision>
+<scale>8</scale>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LATITUDE2" id="F773E107-BF02-915D-23A0-868B78ABCA49">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>LATITUDE2</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+<precision>12</precision>
+<scale>8</scale>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LONGITUDE2" id="9B22419F-5B1E-080B-7D37-B613A7F045D7">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>LONGITUDE2</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+<precision>12</precision>
+<scale>8</scale>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LOCATIONQUALITY" id="96214793-A78F-FBB8-61CA-188658D30461">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>LOCATIONQUALITY</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>1</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="DATETIME" id="78B76A62-6EBE-81D3-89D3-DEE7DD821C6E">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>DATETIME</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>55</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="ALTITUDE" id="1A8A6986-5DF7-4A09-0ABE-44AE642942E5">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>ALTITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="PASS" id="C963F47B-5863-4AE5-10FD-3169A72C1066">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>PASS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="SATELLITE" id="38F98ED4-E4A5-1D2C-374C-55E0067D348F">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>SATELLITE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>2</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="FREQUENCY" id="4E0316CD-6347-8C48-6800-5A289FD99D0F">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>FREQUENCY</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+<scale>3</scale>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="MSGCOUNT" id="4F35F17B-A2F1-F3E5-FE05-CF359A17A8E5">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>MSGCOUNT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="ERROR_RADIUS" id="2DE98938-4A6E-5128-C075-F88C982196B7">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>ERROR_RADIUS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="SEMIMAJOR" id="E23229A7-A400-E182-6024-EC0CCE0E2611">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>SEMIMAJOR</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="SEMIMINOR" id="3FA6EF58-8D05-B102-7469-C4D31429A219">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>SEMIMINOR</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="ELLIPSE_ORIENT" id="EA64CC39-284E-F038-C232-113021FAD5C3">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>ELLIPSE_ORIENT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="GDOP" id="7C26AEED-38C2-1019-EE07-22C78AA97F1E">
+<sourceConnName>raja_peptel</sourceConnName>
+<sourceObjSchema>XTARGOS_REPROCESS</sourceObjSchema>
+<sourceObjName>GDOP</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-26 18:25:07 UTC</createdTime>
+<ownerDesignName>peptel</ownerDesignName>
+<datatype>NUMBER</datatype>
+</Column>
+</columns>
+</ExternalTableOraclev10g>
