@@ -20,6 +20,11 @@ The NMML Polar Ecosystems Program (PEP) telemetry data model represents the Orac
 2. input and processing of WC-DAP files via external tables
 3. tag deployments and tag inventory
 
+Repository Files
+-----------------
+
+The files included in this repository are largely exports from [Oracle SQL Developer Data Modeler](http://www.oracle.com/technetwork/developer-tools/datamodeler/overview/index.html) which is freely available from Oracle for Windows, OS X and Linux. The `pep_telemetry` directory and `pep_telemetry.dmd` file contain all of the information for the pep_telemetry data model. `pep_telemetry.ddl` is a DDL script to generate all of the database components (e.g. tables, materialized views, procedures, indexes). While the DDL is specific to Oracle, advanced database developers should be able to adapt the approach for other database platforms. The `pep_telemetry.pdf` file is a graphical representation of the data model.
+
 Seal capture, morphometrics and sampling data
 ---------------------------------------------
 
