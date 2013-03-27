@@ -1,15 +1,7 @@
 PEP Telemetry Data Model
 =================
 
-*This is a working document/repository. Thoughts are not fully formed and edits are not finalized* 
-
-Josh M. London  
-Polar Ecosystem Program  
-National Marine Mammal Laboratory, Alaska Fisheries Science Center  
-National Marine Fisheries Service, NOAA, US Dept. of Commerce  
-7600 Sand Point Way NE, Seattle, Washington, USA, 98115  
-
-*26 March 2013*
+*This is a working document/repository. Thoughts are not fully formed and edits are not finalized*  
 
 Introduction
 ----------------------
@@ -49,3 +41,10 @@ Stored Procedures to Update With New Data
 
 Planned Additions and Improvements
 ----------------------------------
+
+----------------------------------------
+Josh M. London  
+Polar Ecosystem Program  
+National Marine Mammal Laboratory, Alaska Fisheries Science Center  
+National Marine Fisheries Service, NOAA, US Dept. of Commerce  
+7600 Sand Point Way NE, Seattle, Washington, USA, 98115 
