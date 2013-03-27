@@ -23,8 +23,6 @@ Seal capture, morphometrics and sampling data
 
 `pepcapturedata`,`pepmorphs`,`pepsamples`,`pepdrugs`
 
-> TODO  
->  *INSERT ADDITIONAL DETAILS AND DESCRIPTIONS HERE*
 
 Input and processing of WC-DAP files via external tables
 --------------------------------------------------------
@@ -32,26 +30,15 @@ Input and processing of WC-DAP files via external tables
 `extargos`,`exthistos`,`extlocations`,`extstatus`,`histos`,`locations`,  
 `drytimes`,`drytimes_20`,`divedepth`,`tad`,`status`,`xtargos_reprocess`,`locations_repro`
 
-> TODO  
->  *INSERT ADDITIONAL DETAILS AND DESCRIPTIONS HERE*
-
 Tag deployments and tag inventory
 ---------------------------------
 
 `pepdeployments`,`peptaginfo`
-
-> TODO  
->  *INSERT ADDITIONAL DETAILS AND DESCRIPTIONS HERE*
 
 Stored Procedures to Update With New Data
 ------------------------------------------
 
 `updatehistos`,`updatelocations`,`updatestatus`
 
-> TODO  
->  *INSERT ADDITIONAL DETAILS AND DESCRIPTIONS HERE*
-
 Planned Additions and Improvements
 ----------------------------------
-> TODO  
->  *INSERT ADDITIONAL DETAILS AND DESCRIPTIONS HERE*
