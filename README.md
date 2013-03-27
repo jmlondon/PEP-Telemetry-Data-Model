@@ -1,7 +1,7 @@
 PEP Telemetry Data Model
 =================
 
-*This is a working document/repository. Thoughts are not fully formed and edits are not finalized*  
+*This is a working document/repository. Thoughts are not fully formed and edits are not finalized ... but forks are welcome*  
 
 Introduction
 ----------------------
