@@ -1,0 +1,399 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A931B36A-CE9F-960D-772D-5E69D2FA5439" directorySegmentName="seg_0" name="PEPCAPTUREDATA">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>PEPCAPTUREDATA</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
+<pkName>PEPCAPTUREDATA_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPENO" id="E124AF59-663B-572A-A91A-B7FCFEE81497">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>SPENO</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPECTYPE" id="B9853A5D-5C4A-E604-DC66-0043F053E5FC">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>SPECTYPE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROJECTID" id="11DD9BA9-98C6-9D05-F5BD-22680F61E46C">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>PROJECTID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SECONDARYID" id="C95B88E1-5B3A-E03A-2175-DAAD648A6F68">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>SECONDARYID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="RELATIVEID" id="FC67AC30-0E50-8E02-9D1D-1384CF4C5B3E">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>RELATIVEID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPECIES" id="CFCF78D6-F0D9-1507-3049-C2809A372F0A">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>SPECIES</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="LOCATIONNAME" id="9F3FAC9C-C47A-BC31-1168-E1D2B7E96ACF">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>LOCATIONNAME</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SITEID" id="B2FDE772-7FC8-A40F-2BE4-01A34CB192F0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>SITEID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="LATITUDE" id="EA46614E-2C27-AE2C-C6A6-D775067FA7CC">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="LONGITUDE" id="6588EAD5-18DA-0F76-2966-818EF263F96C">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="CAPTURE_DT" id="89FD9DD8-FE2C-D3F0-7FDE-5066A395F348">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>CAPTURE_DT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="RELEASE_DT" id="C462D490-0BB7-60D2-2B76-338C4CE4C323">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>RELEASE_DT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEX" id="DB758C1D-4C93-8460-C099-2554CC7439AF">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>SEX</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="AGE" id="4A50F319-0BF6-2872-29AF-36015E3BB8C0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>AGE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="MOLT" id="862610C7-7F7A-1858-BD0F-D21454506CDF">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>MOLT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="PREGNANT" id="4B85A789-0AA3-B441-77F2-49871EC781D3">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>PREGNANT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="PVPELAGE" id="8701B3B2-333C-F559-8BE4-9B291FB77C5C">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>PVPELAGE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TAGNUMBERLEFT" id="64FB2C01-5883-55BF-F163-F3DAF50525A8">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>TAGNUMBERLEFT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TAGNUMBERRIGHT" id="03EB827F-65CB-515B-4270-2F4CB83FDBCE">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>TAGNUMBERRIGHT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TAGCOLOR" id="D8F67554-5C5D-B14E-554A-5DA8D323EFD0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>TAGCOLOR</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NUMERICTAGTYPE" id="6B6E48C2-355E-2191-E1CC-D5040F97035A">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>NUMERICTAGTYPE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="PERMITNO" id="0649CBA3-D710-6914-FF92-42652A50B0D3">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>PERMITNO</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="COMMENTS" id="6B1B43A7-D450-9199-4D3E-E9ABEE1E4B42">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPCAPTUREDATA</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="30B6630F-7A75-77DB-FDDA-213D275014BC" name="PEPCAPTUREDATA_PK">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>PEPCAPTUREDATA_PK</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E124AF59-663B-572A-A91A-B7FCFEE81497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0700A8F9-D701-C684-C73B-F3EF6510BCE6" name="PEPCAPTUREDATA_PK">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>PEPCAPTUREDATA_PK</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="E124AF59-663B-572A-A91A-B7FCFEE81497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

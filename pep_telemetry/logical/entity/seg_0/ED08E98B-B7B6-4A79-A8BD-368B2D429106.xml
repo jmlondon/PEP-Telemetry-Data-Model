@@ -1,0 +1,392 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="ED08E98B-B7B6-4A79-A8BD-368B2D429106" directorySegmentName="seg_0" name="TAD">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>1A516786-BED4-7B0F-376A-53D0B4373017</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<typeID>4</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DEPLOYID" id="1783C910-6E91-7716-C13C-92D3BAA5B43C">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>FFB8C8C5-45A6-E2DC-7CFD-3AFE23031663</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SPENO" id="3DF10990-FC5B-176D-6B84-0D067547B41B">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>C3577F4F-0AA0-E43B-37BB-17CEEFC3112B</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROJECTID" id="FF3A9B2F-9B07-71D9-4BFD-610C12FE4B27">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>0C6E6C76-2EE9-B1CF-3F2C-49D1E2F09224</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SPECIES" id="80C7FF39-0EAF-1B75-4C7B-DC9857E36303">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>F9B95D1C-7459-5D1E-FD6D-498EEF058AE2</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DEPLOYDATE" id="6A8C03C8-558C-95D1-80EA-CA026B6E5C37">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>4FFB3F66-24B5-EF2D-E07A-B12B22E93798</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TAGTYPE" id="463080B8-756B-234A-6CD8-7F82938223A2">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>30E049EF-1F55-E2A1-F0E4-19EB973D41D5</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="AGE" id="E46E8237-65B3-9316-29E0-D63DE11C3E0C">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>B06DC7C8-AF56-8025-B80B-86099EE5F285</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SEX" id="FB7C031D-2A16-C0A0-4ADB-DD8C5525A479">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>544D9A56-6BD2-7E1C-E8D2-C86D507546BC</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DATADATETIME" id="1CCF7CD0-99E4-A61B-599B-CBB68800EB97">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>489BFF96-3190-03D6-19CB-985D8639970E</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="HISTTYPE" id="F159A764-B658-2672-2F14-7AA72B441232">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>07E5C4D2-53F2-9984-DE3A-057E4AFB4450</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ABOVE4M" id="C99DF64A-6013-301A-066D-0CC06CEC3CCD">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>2D6B690D-97BF-19CD-3FEE-8C869A79D9E0</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BELOW4M" id="61535463-9250-46E5-008A-72EA4AC6E29D">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>1E76F514-6A48-347B-E539-E647CB29A192</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN1" id="BEBE323E-90DE-F0A5-DF2D-C9F9B2D32785">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>A85276C2-57B3-D5B9-5AC1-5FAF3AF072DB</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN2" id="3A761E4F-F6CB-80BC-736B-1DAB35B71757">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>81756581-1C76-3326-4796-BCE7736F800A</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN3" id="38ADB230-FB5D-C691-C9C2-466DFD6DD305">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>B8D0E45C-C48D-15DF-8E95-B5220FE38324</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN4" id="6D9BA6A1-8574-ADC9-8085-D675E2F80EEA">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>7B390238-EB10-D2AD-6B7B-AB86FCB659F0</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN5" id="3708A35C-9ECA-123B-4C17-F5AFB5EB1739">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>6452FDA6-CEEC-B61F-9ECD-2B67F1042168</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN6" id="05BCCA4B-35FE-A3A4-3164-AD37E53CB64B">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>7C08345D-B9DE-6BD8-3DEB-DC069FB1BEB3</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN7" id="2FC54F80-75CD-779B-940D-6313EF03FB38">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>058BD3A3-F4C0-CBD8-F173-5B103F5C118B</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN8" id="60A1ACB1-B329-0935-1F22-07D97BDF3580">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>C4383121-1B32-0B0F-B888-3E7B4BB8077D</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN9" id="A3548D99-F2A7-1D43-EB53-5E724AACD3D4">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>8F5C237A-5E7B-ECD7-9759-5E4CB55527CC</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN10" id="D14F0328-1B4D-CE09-BAD8-DB97AB6A15CE">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>D2AE1E1A-F475-8F6E-D84A-E7CBD25A3715</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN11" id="CD27F02D-F879-7ED3-FA1F-DBEFEAE9BC56">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>E6985435-3194-DFF8-253E-3AC50E6745E2</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="BIN12" id="BF01735F-8735-1A44-DF5E-D217AAF881B4">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>7A30C48E-AE52-687E-91F5-36693DBEE428</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+</Attribute>
+</attributes>
+</Entity>

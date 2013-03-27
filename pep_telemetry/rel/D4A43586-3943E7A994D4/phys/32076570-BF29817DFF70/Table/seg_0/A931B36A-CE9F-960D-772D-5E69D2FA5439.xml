@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PEPCAPTUREDATA" id="A931B36A-CE9F-960D-772D-5E69D2FA5439" directorySegmentName="seg_0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FB425E31-716E-B6E1-B019-40B4CAACEB86</segment>
+<tableSpace>C3B75F49-87DA-F5C5-8C5B-3AF937851857</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TAGNUMBERRIGHT" id="03EB827F-65CB-515B-4270-2F4CB83FDBCE">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PERMITNO" id="0649CBA3-D710-6914-FF92-42652A50B0D3">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PROJECTID" id="11DD9BA9-98C6-9D05-F5BD-22680F61E46C">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AGE" id="4A50F319-0BF6-2872-29AF-36015E3BB8C0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PREGNANT" id="4B85A789-0AA3-B441-77F2-49871EC781D3">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TAGNUMBERLEFT" id="64FB2C01-5883-55BF-F163-F3DAF50525A8">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="LONGITUDE" id="6588EAD5-18DA-0F76-2966-818EF263F96C">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="COMMENTS" id="6B1B43A7-D450-9199-4D3E-E9ABEE1E4B42">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NUMERICTAGTYPE" id="6B6E48C2-355E-2191-E1CC-D5040F97035A">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="MOLT" id="862610C7-7F7A-1858-BD0F-D21454506CDF">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PVPELAGE" id="8701B3B2-333C-F559-8BE4-9B291FB77C5C">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CAPTURE_DT" id="89FD9DD8-FE2C-D3F0-7FDE-5066A395F348">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="LOCATIONNAME" id="9F3FAC9C-C47A-BC31-1168-E1D2B7E96ACF">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SITEID" id="B2FDE772-7FC8-A40F-2BE4-01A34CB192F0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SPECTYPE" id="B9853A5D-5C4A-E604-DC66-0043F053E5FC">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="RELEASE_DT" id="C462D490-0BB7-60D2-2B76-338C4CE4C323">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SECONDARYID" id="C95B88E1-5B3A-E03A-2175-DAAD648A6F68">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SPECIES" id="CFCF78D6-F0D9-1507-3049-C2809A372F0A">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TAGCOLOR" id="D8F67554-5C5D-B14E-554A-5DA8D323EFD0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SEX" id="DB758C1D-4C93-8460-C099-2554CC7439AF">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SPENO" id="E124AF59-663B-572A-A91A-B7FCFEE81497">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="LATITUDE" id="EA46614E-2C27-AE2C-C6A6-D775067FA7CC">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="RELATIVEID" id="FC67AC30-0E50-8E02-9D1D-1384CF4C5B3E">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PEPCAPTUREDATA_PK" id="0700A8F9-D701-C684-C73B-F3EF6510BCE6">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<segment>855B4C26-7332-CC29-0D53-05274908C3FD</segment>
+<tableSpace>C3B75F49-87DA-F5C5-8C5B-3AF937851857</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PEPCAPTUREDATA_PK" id="30B6630F-7A75-77DB-FDDA-213D275014BC">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<tableSpace>C3B75F49-87DA-F5C5-8C5B-3AF937851857</tableSpace>
+<existingIndex>0700A8F9-D701-C684-C73B-F3EF6510BCE6</existingIndex>
+<indexSegment>855B4C26-7332-CC29-0D53-05274908C3FD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

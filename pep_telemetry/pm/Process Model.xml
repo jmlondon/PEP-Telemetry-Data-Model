@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="66FAAF2E-8C7D-9E37-0E22-FF734DD17C90">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 16:58:22 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

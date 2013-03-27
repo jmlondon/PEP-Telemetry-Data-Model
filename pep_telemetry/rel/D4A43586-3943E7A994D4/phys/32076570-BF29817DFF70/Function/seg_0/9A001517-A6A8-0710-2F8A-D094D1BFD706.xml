@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="GET_180" id="9A001517-A6A8-0710-2F8A-D094D1BFD706" directorySegmentName="seg_0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>GET_180</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<owner>7FA7C775-8AA2-5E8C-D91A-A81EC4048787</owner>
+<source>CREATE OR REPLACE FUNCTION          PEPTEL.GET_180 (&lt;br/&gt;   longitude IN NUMBER)&lt;br/&gt; RETURN NUMBER&lt;br/&gt; IS&lt;br/&gt;    long180 number;&lt;br/&gt; BEGIN&lt;br/&gt;   IF longitude &gt; 180 THEN&lt;br/&gt;   long180 := -180 + (longitude-180);&lt;br/&gt;   ELSE long180 := longitude;&lt;br/&gt;   END IF;&lt;br/&gt;   RETURN long180;&lt;br/&gt; END;</source>
+</FunctionOracle>

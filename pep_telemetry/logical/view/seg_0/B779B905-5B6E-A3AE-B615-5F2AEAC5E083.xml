@@ -1,0 +1,325 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="B779B905-5B6E-A3AE-B615-5F2AEAC5E083" directorySegmentName="seg_0" name="LOCATIONS_REPRO">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>380A2CCB-5344-2971-FA7B-DDB0B88C81A4</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>CREATE OR REPLACE VIEW LOCATIONS_REPRO&lt;br/&gt;AS &lt;br/&gt;SELECT  &lt;br/&gt;		PEPDEPLOYMENTS.DEPLOYID, &lt;br/&gt;		PEPCAPTUREDATA.SPENO,&lt;br/&gt;		PEPCAPTUREDATA.PROJECTID,&lt;br/&gt;		PEPCAPTUREDATA.SPECIES,&lt;br/&gt;		PEPDEPLOYMENTS.DEPLOYDATE,&lt;br/&gt;		PEPTAGINFO.TAGTYPE,&lt;br/&gt;		PEPCAPTUREDATA.AGE,&lt;br/&gt;		PEPCAPTUREDATA.SEX,&lt;br/&gt;		TO_DATE(XTARGOS_REPROCESS.DATETIME,&apos;YY/MM/DD HH24:MI:SS&apos;) DATADATETIME,&lt;br/&gt;		TO_CHAR(TO_DATE(XTARGOS_REPROCESS.DATETIME,&apos;YY/MM/DD HH24:MI:SS&apos;),&apos;YYYY-MM-DD HH24&apos;) DATAHOUR,&lt;br/&gt;		XTARGOS_REPROCESS.SATELLITE,&lt;br/&gt;		XTARGOS_REPROCESS.LOCATIONQUALITY,&lt;br/&gt;		XTARGOS_REPROCESS.LATITUDE,&lt;br/&gt;    XTARGOS_REPROCESS.LONGITUDE LONG_ORIG,&lt;br/&gt;    GET_180(XTARGOS_REPROCESS.LONGITUDE) LONGITUDE,&lt;br/&gt;		XTARGOS_REPROCESS.LATITUDE2,&lt;br/&gt;		GET_180(XTARGOS_REPROCESS.LONGITUDE2) LONGITUDE2,&lt;br/&gt;		XTARGOS_REPROCESS.ERROR_RADIUS,&lt;br/&gt;		XTARGOS_REPROCESS.SEMIMAJOR,&lt;br/&gt;		XTARGOS_REPROCESS.SEMIMINOR,&lt;br/&gt;		XTARGOS_REPROCESS.ELLIPSE_ORIENT&lt;br/&gt;FROM XTARGOS_REPROCESS LEFT JOIN PEPTAGINFO ON XTARGOS_REPROCESS.PTT = PEPTAGINFO.PTT LEFT JOIN PEPDEPLOYMENTS ON PEPDEPLOYMENTS.SERIALNUM = PEPTAGINFO.SERIALNUM LEFT JOIN PEPCAPTUREDATA ON PEPCAPTUREDATA.SPENO = PEPDEPLOYMENTS.SPENO&lt;br/&gt;WHERE XTARGOS_REPROCESS.LATITUDE IS NOT NULL</userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+</fonts>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DEPLOYID" id="C093FEA5-DA9C-E9AD-79C6-7FB86863F7AE">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>5AFB4DB0-7C20-C6F3-B1FA-763AA68AA6FE</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>DEPLOYID</alias>
+<dataType>VARCHAR2 (19)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SPENO" id="F1BA5264-6EEE-B166-9198-BF72BE4DA563">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>A3E6E45E-2C51-34E0-78D9-5C5BEADA5525</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>SPENO</alias>
+<dataType>VARCHAR2 (11)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROJECTID" id="CFFEE082-7CB1-C8EC-8E90-ECFC10CD3B5F">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>3E06D5C4-E0D2-D350-271E-46D98F352F9B</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROJECTID</alias>
+<dataType>VARCHAR2 (55)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SPECIES" id="2FCED2B5-563B-4687-C480-F4F85E6ABB64">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>EC4BEC7F-A245-5B47-ACF1-05BD76D4C860</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>SPECIES</alias>
+<dataType>VARCHAR2 (24)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DEPLOYDATE" id="D2A07E33-CD56-3958-EF2B-4A51D7CB73DF">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>18FC8F35-6AA0-BF2F-577F-0AC3AADF2ADE</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>DEPLOYDATE</alias>
+<dataType>DATE (7)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TAGTYPE" id="5FD369AF-A42D-7488-F330-86877879CDDA">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>E0D68ECF-8164-AF2A-E316-39D4C4FF0578</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>TAGTYPE</alias>
+<dataType>VARCHAR2 (8)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="AGE" id="1D13C34E-C448-631E-AAF7-26BABA6ACEDD">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>3D3E748C-53E4-E7F1-191D-78CC726B1658</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>AGE</alias>
+<dataType>VARCHAR2 (8)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SEX" id="E46195EB-76FC-D00E-B363-7D00CBF23603">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>00ED0F2C-4B23-0B3A-5DD7-EFA96EEBDEBA</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>SEX</alias>
+<dataType>VARCHAR2 (8)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DATADATETIME" id="DA004D26-2BC3-F27D-5E79-732ADA756B65">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>2D4CDF1F-8832-19CA-20AB-626A377FD964</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>DATADATETIME</alias>
+<dataType>DATE (8)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DATAHOUR" id="38E8D0B3-4D9D-6376-E560-172F52A91F9B">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>C95E5019-79AB-CFA2-0865-91E87EA4380C</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>DATAHOUR</alias>
+<dataType>VARCHAR2 (13)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SATELLITE" id="F96FCDA0-ECC7-DD75-456B-A550DF6DE8DA">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>08627D72-98C8-613D-5D52-7E4BBDB1C2B8</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>SATELLITE</alias>
+<dataType>VARCHAR2 (2)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LOCATIONQUALITY" id="94BF8BB8-B87B-38C3-77CB-35CB76A68364">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>83FC0389-6DFA-902A-E23E-4610D13F3E91</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LOCATIONQUALITY</alias>
+<dataType>VARCHAR2 (1)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LATITUDE" id="48841475-0F12-20BF-918F-564577D85D9B">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>8C5B8DD7-38DF-FF1D-D1F4-C716D421C1EE</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LATITUDE</alias>
+<dataType>NUMBER (12, 8)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LONG_ORIG" id="BBF00607-FCF1-CD7E-76BA-B75AC60EC6B4">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>446D268A-F783-DC8A-54C3-126200D2ED68</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LONG_ORIG</alias>
+<dataType>NUMBER (12, 8)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LONGITUDE" id="BA178FFA-6B10-2AE2-B6DC-B0BA27B391BD">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>DB5D652A-BB84-3DFE-FB67-8098B5EC30C2</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LONGITUDE</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LATITUDE2" id="39FA8A19-4AD3-BFAB-D22A-6ECF62E00508">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>D5DD1BCC-CD7F-9FF7-ED1B-2AAB51D12B3B</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LATITUDE2</alias>
+<dataType>NUMBER (12, 8)</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LONGITUDE2" id="2EDACA73-DFA3-E8CF-D196-F20E911050B8">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>B17511DE-BBFC-7FA7-F884-5D09A8AF7DB5</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LONGITUDE2</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ERROR_RADIUS" id="04EFD64B-C7CC-213E-7C05-AD517A9404B1">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>7EB9BD03-0229-9D63-F884-D3DB1A0C87FD</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>ERROR_RADIUS</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SEMIMAJOR" id="79F7903D-90D7-F020-70FF-819509D261C5">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>8323F08D-8FCB-09D5-E5A9-17A47B454961</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>SEMIMAJOR</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SEMIMINOR" id="325FED08-D4C3-BB78-69FD-AD00B63381AF">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>66CFD914-10E1-0D78-B742-15932D95C26D</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>SEMIMINOR</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ELLIPSE_ORIENT" id="85E9F9E6-CBB3-1D23-30AA-9F576FC08471">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:14:00 UTC</createdTime>
+<generatorID>F7E44A57-356F-4714-8148-0F55351CEC6D</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>ELLIPSE_ORIENT</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<viewID>B779B905-5B6E-A3AE-B615-5F2AEAC5E083</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

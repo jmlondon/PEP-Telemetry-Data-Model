@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="HISTID_TRG" id="982E8217-8B96-163A-7D37-A95DB433CA84" directorySegmentName="seg_0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>HISTID_TRG</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;  v_id histos.histid%TYPE;&lt;br/&gt;BEGIN&lt;br/&gt;  -- Select a new value from the sequence into a local variable. As David&lt;br/&gt;  -- commented, this step is optional. You can directly select into :new.qname_id&lt;br/&gt;  SELECT hist_seq.nextval INTO v_id FROM DUAL;&lt;br/&gt;&lt;br/&gt;  -- :new references the record that you are about to insert into qname. Hence,&lt;br/&gt;  -- you can overwrite the value of :new.qname_id (qname.qname_id) with the value&lt;br/&gt;  -- obtained from your sequence, before inserting&lt;br/&gt;  :NEW.histid := v_id;&lt;br/&gt;END HISTID_TRG;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>new.histid is null</condition>
+<owner>7FA7C775-8AA2-5E8C-D91A-A81EC4048787</owner>
+<table>A3716C31-ED2A-CE1F-0A1F-A07EE085D914</table>
+</TriggerOraclev10g>

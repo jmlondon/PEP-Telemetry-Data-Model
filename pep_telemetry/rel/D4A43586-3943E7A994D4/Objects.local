@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="C70FBE09-E72D-4A34-22F3-23C719A4F7FF" name="PEPTEL" seqName="seg_0"/>
+   <object objectType="Table" objectID="6E792E3A-02E9-E8BF-E778-BF1C3DF06877" name="DIVEDEPTH" seqName="seg_0"/>
+   <object objectType="Table" objectID="97CDEC10-4F3F-3799-973A-F4DC70F87B64" name="DRYTIMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="ED64E33E-7C31-75DA-2AD3-3211077BC8C2" name="DRYTIMES_20" seqName="seg_0"/>
+   <object objectType="Table" objectID="F3904620-2F54-FE92-4838-697EE9FEC0F7" name="DRYTIME_LOCS" seqName="seg_0"/>
+   <object objectType="Table" objectID="CCC1CF5E-1F2A-BDBA-0CBF-342A55B390D9" name="GEOMETRY_COLUMNS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A3716C31-ED2A-CE1F-0A1F-A07EE085D914" name="HISTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A7705E50-ABAB-FEF1-E829-6A8603055C61" name="LOCATIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A931B36A-CE9F-960D-772D-5E69D2FA5439" name="PEPCAPTUREDATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="15572D34-AABE-F8C7-F6B4-1D9FB66BE659" name="PEPDEPLOYMENTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AED190A5-E79E-3649-3654-FFE97F08D8C9" name="PEPDRUGS" seqName="seg_0"/>
+   <object objectType="Table" objectID="709CC2C6-B899-8B56-929C-80BE85022456" name="PEPMORPHS" seqName="seg_0"/>
+   <object objectType="Table" objectID="23E5904B-75DE-B0A2-4CA8-2EA47B62902B" name="PEPSAMPLES" seqName="seg_0"/>
+   <object objectType="Table" objectID="781449BF-6B42-F68A-3696-2CFDAD966BBF" name="PEPTAGINFO" seqName="seg_0"/>
+   <object objectType="Table" objectID="94E61DD5-E98C-53A6-D5F0-7419ACF6DFCC" name="STATUS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1A516786-BED4-7B0F-376A-53D0B4373017" name="TAD" seqName="seg_0"/>
+   <object objectType="View" objectID="380A2CCB-5344-2971-FA7B-DDB0B88C81A4" name="LOCATIONS_REPRO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="529DEF3D-D88D-FAC7-071A-A028E514339A" name="PEPDEPLOYMENTS_PEPTAGINFO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D7481F9A-0DC0-FB9D-3A35-0539FB1F73CF" name="PEPDEPLOYMENTS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D253636C-76CF-2DAC-C9C2-65C12DA8B1AE" name="PEPDRUGS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D7257EA0-33A9-4844-71E6-A80B270C3D82" name="PEPMORPHS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BA2DB576-A272-5E85-AE7C-8129D005BFDD" name="PEPSAMPLES_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

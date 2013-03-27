@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="CCC1CF5E-1F2A-BDBA-0CBF-342A55B390D9" directorySegmentName="seg_0" name="GEOMETRY_COLUMNS">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>GEOMETRY_COLUMNS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="F_TABLE_SCHEMA" id="088555FD-C747-BFC1-42D7-DD25B43ECCED">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>GEOMETRY_COLUMNS</sourceObjSchema>
+<sourceObjName>F_TABLE_SCHEMA</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="F_TABLE_NAME" id="F39A118C-BE02-C8DF-EDDC-028610CEC206">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>GEOMETRY_COLUMNS</sourceObjSchema>
+<sourceObjName>F_TABLE_NAME</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="F_GEOMETRY_COLUMN" id="4D0B25D0-1398-7889-06F8-5D6D9768DDED">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>GEOMETRY_COLUMNS</sourceObjSchema>
+<sourceObjName>F_GEOMETRY_COLUMN</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="COORD_DIMENSION" id="C5E2E106-EA14-3ED9-5680-963B5708393B">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>GEOMETRY_COLUMNS</sourceObjSchema>
+<sourceObjName>COORD_DIMENSION</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SRID" id="2CECE5D6-8C9B-70DE-85FE-80DB432623BF">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>GEOMETRY_COLUMNS</sourceObjSchema>
+<sourceObjName>SRID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TYPE" id="4EA626B7-7BBE-2A9E-5E58-37BBBF810348">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>GEOMETRY_COLUMNS</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<constraintName>SYS_C00299326</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;COLLECTION&apos;" description=""/>
+<valueDef value="&apos;GEOMETRY&apos;" description=""/>
+<valueDef value="&apos;LINE&apos;" description=""/>
+<valueDef value="&apos;MULTILINE&apos;" description=""/>
+<valueDef value="&apos;MULTIPOINT&apos;" description=""/>
+<valueDef value="&apos;MULTIPOLYGON&apos;" description=""/>
+<valueDef value="&apos;POINT&apos;" description=""/>
+<valueDef value="&apos;POLYGON&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FE23E423-A936-7EB3-102D-177FE2B07CD9" name="GEOMETRY_COLUMNS_F_TABLE_SCHEMA_F_TABLE_NAME_F_GEOMETRY_COLUMN_UN">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>SYS_C00299325</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="088555FD-C747-BFC1-42D7-DD25B43ECCED"/>
+<colUsage columnID="F39A118C-BE02-C8DF-EDDC-028610CEC206"/>
+<colUsage columnID="4D0B25D0-1398-7889-06F8-5D6D9768DDED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

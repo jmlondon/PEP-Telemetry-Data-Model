@@ -1,0 +1,281 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="380A2CCB-5344-2971-FA7B-DDB0B88C81A4" directorySegmentName="seg_0" name="LOCATIONS_REPRO">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>LOCATIONS_REPRO</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
+<userDefined>true</userDefined>
+<userDefinedSQL>CREATE OR REPLACE VIEW LOCATIONS_REPRO&lt;br/&gt;AS &lt;br/&gt;SELECT  &lt;br/&gt;		PEPDEPLOYMENTS.DEPLOYID, &lt;br/&gt;		PEPCAPTUREDATA.SPENO,&lt;br/&gt;		PEPCAPTUREDATA.PROJECTID,&lt;br/&gt;		PEPCAPTUREDATA.SPECIES,&lt;br/&gt;		PEPDEPLOYMENTS.DEPLOYDATE,&lt;br/&gt;		PEPTAGINFO.TAGTYPE,&lt;br/&gt;		PEPCAPTUREDATA.AGE,&lt;br/&gt;		PEPCAPTUREDATA.SEX,&lt;br/&gt;		TO_DATE(XTARGOS_REPROCESS.DATETIME,&apos;YY/MM/DD HH24:MI:SS&apos;) DATADATETIME,&lt;br/&gt;		TO_CHAR(TO_DATE(XTARGOS_REPROCESS.DATETIME,&apos;YY/MM/DD HH24:MI:SS&apos;),&apos;YYYY-MM-DD HH24&apos;) DATAHOUR,&lt;br/&gt;		XTARGOS_REPROCESS.SATELLITE,&lt;br/&gt;		XTARGOS_REPROCESS.LOCATIONQUALITY,&lt;br/&gt;		XTARGOS_REPROCESS.LATITUDE,&lt;br/&gt;    XTARGOS_REPROCESS.LONGITUDE LONG_ORIG,&lt;br/&gt;    GET_180(XTARGOS_REPROCESS.LONGITUDE) LONGITUDE,&lt;br/&gt;		XTARGOS_REPROCESS.LATITUDE2,&lt;br/&gt;		GET_180(XTARGOS_REPROCESS.LONGITUDE2) LONGITUDE2,&lt;br/&gt;		XTARGOS_REPROCESS.ERROR_RADIUS,&lt;br/&gt;		XTARGOS_REPROCESS.SEMIMAJOR,&lt;br/&gt;		XTARGOS_REPROCESS.SEMIMINOR,&lt;br/&gt;		XTARGOS_REPROCESS.ELLIPSE_ORIENT&lt;br/&gt;FROM XTARGOS_REPROCESS LEFT JOIN PEPTAGINFO ON XTARGOS_REPROCESS.PTT = PEPTAGINFO.PTT LEFT JOIN PEPDEPLOYMENTS ON PEPDEPLOYMENTS.SERIALNUM = PEPTAGINFO.SERIALNUM LEFT JOIN PEPCAPTUREDATA ON PEPCAPTUREDATA.SPENO = PEPDEPLOYMENTS.SPENO&lt;br/&gt;WHERE XTARGOS_REPROCESS.LATITUDE IS NOT NULL</userDefinedSQL>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+</fonts>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPLOYID" id="5AFB4DB0-7C20-C6F3-B1FA-763AA68AA6FE">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>DEPLOYID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>DEPLOYID</alias>
+<dataType>VARCHAR2 (19)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SPENO" id="A3E6E45E-2C51-34E0-78D9-5C5BEADA5525">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>SPENO</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>SPENO</alias>
+<dataType>VARCHAR2 (11)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROJECTID" id="3E06D5C4-E0D2-D350-271E-46D98F352F9B">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>PROJECTID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROJECTID</alias>
+<dataType>VARCHAR2 (55)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SPECIES" id="EC4BEC7F-A245-5B47-ACF1-05BD76D4C860">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>SPECIES</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>SPECIES</alias>
+<dataType>VARCHAR2 (24)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPLOYDATE" id="18FC8F35-6AA0-BF2F-577F-0AC3AADF2ADE">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>DEPLOYDATE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>DEPLOYDATE</alias>
+<dataType>DATE (7)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TAGTYPE" id="E0D68ECF-8164-AF2A-E316-39D4C4FF0578">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>TAGTYPE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>TAGTYPE</alias>
+<dataType>VARCHAR2 (8)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="AGE" id="3D3E748C-53E4-E7F1-191D-78CC726B1658">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>AGE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>AGE</alias>
+<dataType>VARCHAR2 (8)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SEX" id="00ED0F2C-4B23-0B3A-5DD7-EFA96EEBDEBA">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>SEX</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>SEX</alias>
+<dataType>VARCHAR2 (8)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATADATETIME" id="2D4CDF1F-8832-19CA-20AB-626A377FD964">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>DATADATETIME</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>DATADATETIME</alias>
+<dataType>DATE (8)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATAHOUR" id="C95E5019-79AB-CFA2-0865-91E87EA4380C">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>DATAHOUR</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>DATAHOUR</alias>
+<dataType>VARCHAR2 (13)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SATELLITE" id="08627D72-98C8-613D-5D52-7E4BBDB1C2B8">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>SATELLITE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>SATELLITE</alias>
+<dataType>VARCHAR2 (2)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOCATIONQUALITY" id="83FC0389-6DFA-902A-E23E-4610D13F3E91">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>LOCATIONQUALITY</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>LOCATIONQUALITY</alias>
+<dataType>VARCHAR2 (1)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LATITUDE" id="8C5B8DD7-38DF-FF1D-D1F4-C716D421C1EE">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>LATITUDE</alias>
+<dataType>NUMBER (12, 8)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LONG_ORIG" id="446D268A-F783-DC8A-54C3-126200D2ED68">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>LONG_ORIG</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>LONG_ORIG</alias>
+<dataType>NUMBER (12, 8)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LONGITUDE" id="DB5D652A-BB84-3DFE-FB67-8098B5EC30C2">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>LONGITUDE</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LATITUDE2" id="D5DD1BCC-CD7F-9FF7-ED1B-2AAB51D12B3B">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>LATITUDE2</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>LATITUDE2</alias>
+<dataType>NUMBER (12, 8)</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LONGITUDE2" id="B17511DE-BBFC-7FA7-F884-5D09A8AF7DB5">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>LONGITUDE2</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>LONGITUDE2</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ERROR_RADIUS" id="7EB9BD03-0229-9D63-F884-D3DB1A0C87FD">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>ERROR_RADIUS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ERROR_RADIUS</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SEMIMAJOR" id="8323F08D-8FCB-09D5-E5A9-17A47B454961">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>SEMIMAJOR</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>SEMIMAJOR</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SEMIMINOR" id="66CFD914-10E1-0D78-B742-15932D95C26D">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>SEMIMINOR</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>SEMIMINOR</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ELLIPSE_ORIENT" id="F7E44A57-356F-4714-8148-0F55351CEC6D">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>LOCATIONS_REPRO</sourceObjSchema>
+<sourceObjName>ELLIPSE_ORIENT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ELLIPSE_ORIENT</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+</TableView>

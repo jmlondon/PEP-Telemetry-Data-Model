@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E565464D-7599-2EB1-DCE3-98FD3841D49B" mainViewID="A30A1E29-AED6-347A-04FD-FCC0AF4D56D9">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 16:58:22 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

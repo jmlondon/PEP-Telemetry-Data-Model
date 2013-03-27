@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="CB184BC4-B116-66F7-4B7A-0DC879030BA6" name="pep_telemetry" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

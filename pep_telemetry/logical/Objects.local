@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="13787275-E874-206F-1B11-8E33FC1F6D6B" name="DIVEDEPTH" seqName="seg_0"/>
+   <object objectType="Entity" objectID="043FC03C-E692-8992-CEE5-3E75DBAD4E23" name="DRYTIMES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4833E001-58CD-4954-F100-9854B6E9EB79" name="DRYTIMES_20" seqName="seg_0"/>
+   <object objectType="Entity" objectID="16AA762C-621B-AF88-89E5-E74F7A9D742B" name="DRYTIME_LOCS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9F077983-95C2-ED82-1533-77130199AA32" name="GEOMETRY_COLUMNS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2B526CE1-0681-5184-0554-920E1AA5B832" name="HISTOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="03C7A26F-5952-E9E5-670A-9B28177E4EA3" name="LOCATIONS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="07247577-4FA1-C27B-1EB2-315E72B4B00D" name="PEPCAPTUREDATA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2BD29904-C069-8BCA-C9D2-31AD06AE0EE3" name="PEPDEPLOYMENTS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="46479CDC-0896-82DB-B40E-07805551575E" name="PEPDRUGS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9CCC9DBF-7F9B-BD5C-C396-8A9191315186" name="PEPMORPHS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2AFF9038-E5AF-8B4C-A73B-075ABC78C6F1" name="PEPSAMPLES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="98EE294B-15F7-3C01-7A03-FDB70F65CB62" name="PEPTAGINFO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0053EB34-B95E-F854-9C47-DEE72E30BF3A" name="STATUS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="ED08E98B-B7B6-4A79-A8BD-368B2D429106" name="TAD" seqName="seg_0"/>
+   <object objectType="EntityView" objectID="B779B905-5B6E-A3AE-B615-5F2AEAC5E083" name="LOCATIONS_REPRO" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

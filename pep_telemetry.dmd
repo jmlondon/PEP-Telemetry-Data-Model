@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pep_telemetry" id="B02F8FDA-9EE8-B2A9-FD3B-A329A12BE3DC" version="3.5">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 16:58:22 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B02F8FDA-9EE8-B2A9-FD3B-A329A12BE3DC</designId>
+</OSDM_Design>

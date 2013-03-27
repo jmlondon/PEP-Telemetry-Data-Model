@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ExternalTableOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableOraclev10g" name="EXTLOCATIONS" id="807C93C3-0BA1-3E90-495A-356C062D8770" directorySegmentName="seg_0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>EXTLOCATIONS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<defaultdir>7BD8B691-8C6B-BD51-B1DA-89FC6A8D24C7</defaultdir>
+<location>peptelemetry-Locations.csv</location>
+<opaqueFormatSpec>RECORDS DELIMITED BY &quot;\r\n&quot;&lt;br/&gt;	SKIP 1&lt;br/&gt;	FIELDS TERMINATED BY &apos;,&apos; OPTIONALLY ENCLOSED BY &apos;&quot;&apos;&lt;br/&gt;    MISSING FIELD VALUES ARE NULL&lt;br/&gt;    REJECT ROWS WITH ALL NULL FIELDS&lt;br/&gt;	                                </opaqueFormatSpec>
+<owner>7FA7C775-8AA2-5E8C-D91A-A81EC4048787</owner>
+<rejectLimit>0</rejectLimit>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="DEPLOYID" id="5ACE9C14-973D-D338-D4B7-8D3B5EA193DA">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>DEPLOYID</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>21</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="PTT" id="20E11083-3D15-F428-F7C6-AD24FC7C0AA4">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>PTT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>5</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="INSTR" id="5D01092A-008B-A496-7454-0ACAA7BE0FD4">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>INSTR</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>10</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LOCATIONDATE" id="20AE5BF8-5371-ABDB-C3C9-863AD192B82F">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>LOCATIONDATE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>19</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LOCATIONTYPE" id="D3D7C1DE-13B7-37CE-2FD2-BA39C2665BF5">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>LOCATIONTYPE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>5</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="QUALITY" id="08B3174B-CDEA-6CB8-1398-4EA12E580FA5">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>QUALITY</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>2</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LATITUDE" id="227344A3-74D2-2A96-4C47-9F784AE68919">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>13</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LONGITUDE" id="66F740EB-8741-B30A-E8AD-D67BDF91F66B">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>13</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="ERROR_RADIUS" id="59302C43-ABF0-DBF4-214C-41FAF4A33DBD">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>ERROR_RADIUS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="ERROR_SEMI_MAJOR_AXIS" id="784A44B9-FA26-80F7-E588-4E1755C57087">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>ERROR_SEMI_MAJOR_AXIS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="ERROR_SEMI_MINOR_AXIS" id="3EC72FBB-C409-36F9-FF64-0AD24100CE1D">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>ERROR_SEMI_MINOR_AXIS</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="ERROR_ELLIPSE_ORIENTATION" id="2CC43F56-8374-DDBB-3794-0CA557726CDA">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>ERROR_ELLIPSE_ORIENTATION</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="OFFSET" id="6EAFD931-756C-7EB1-0DB5-5CBD838F6E53">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>OFFSET</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="OFFSET_ORIENTATION" id="8CA962F3-8A22-2AE9-2863-7616C554943D">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>OFFSET_ORIENTATION</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="GPE_MSD" id="D01B34E0-D97F-B448-0500-DD22A12EAA26">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>GPE_MSD</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="GPE_U" id="7A10AB60-59CE-5F20-6418-B520A3457311">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>GPE_U</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>6</size>
+<units>BYTE</units>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.storage.oracle.v10g.ExternalTableColumnOraclev10g" name="LOCATION_COMMENT" id="67D7B6C5-402C-B767-EEB6-6BEBA8347D82">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>EXTLOCATIONS</sourceObjSchema>
+<sourceObjName>LOCATION_COMMENT</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<datatype>VARCHAR2</datatype>
+<size>255</size>
+<units>BYTE</units>
+</Column>
+</columns>
+</ExternalTableOraclev10g>

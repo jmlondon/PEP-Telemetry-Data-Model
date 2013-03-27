@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="DOSEID_TRG" id="9D2A1B8B-323D-2453-EE4D-599B22840629" directorySegmentName="seg_0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>DOSEID_TRG</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  SELECT DOSEID_SEQ.NEXTVAL&lt;br/&gt;  INTO   :new.DOSEID&lt;br/&gt;  FROM   dual;&lt;br/&gt;END;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>new.DOSEID IS NULL</condition>
+<owner>7FA7C775-8AA2-5E8C-D91A-A81EC4048787</owner>
+<table>AED190A5-E79E-3649-3654-FFE97F08D8C9</table>
+</TriggerOraclev10g>

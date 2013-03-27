@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SAMPLEID_TRG" id="6E4EBF0E-84DE-9CE8-B12D-1BDCB519D695" directorySegmentName="seg_0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>SAMPLEID_TRG</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  SELECT SAMPLEID_SEQ.NEXTVAL&lt;br/&gt;  INTO   :new.SAMPLEID&lt;br/&gt;  FROM   dual;&lt;br/&gt;END;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>new.SAMPLEID IS NULL</condition>
+<owner>7FA7C775-8AA2-5E8C-D91A-A81EC4048787</owner>
+<table>23E5904B-75DE-B0A2-4CA8-2EA47B62902B</table>
+</TriggerOraclev10g>

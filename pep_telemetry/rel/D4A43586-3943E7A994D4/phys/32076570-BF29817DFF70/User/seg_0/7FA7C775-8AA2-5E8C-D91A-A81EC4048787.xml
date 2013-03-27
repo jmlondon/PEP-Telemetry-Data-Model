@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PEPTEL" id="7FA7C775-8AA2-5E8C-D91A-A81EC4048787" directorySegmentName="seg_0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjName>PEPTEL</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:16 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
+<profile>DEFAULT</profile>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="DE053864-98D9-8B0E-040C-156079D7D80E">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:19 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<privileges>READ, WRITE</privileges>
+<directoryOracle>7BD8B691-8C6B-BD51-B1DA-89FC6A8D24C7</directoryOracle>
+</Permission>
+</permissions>
+</UserOraclev10g>

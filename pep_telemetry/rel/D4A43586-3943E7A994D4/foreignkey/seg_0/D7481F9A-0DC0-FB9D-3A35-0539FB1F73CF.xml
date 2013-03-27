@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="D7481F9A-0DC0-FB9D-3A35-0539FB1F73CF" directorySegmentName="seg_0" name="PEPDEPLOYMENTS_PEPCAPTUREDATA_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:16:53 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<containerWithKeyObject>15572D34-AABE-F8C7-F6B4-1D9FB66BE659</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>CEDE2FE2-7029-5922-5B48-618918CB4365</localFKIndex>
+<keyObject>30B6630F-7A75-77DB-FDDA-213D275014BC</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="STATUSID_TRG" id="EEA51522-F672-7C33-FEC7-4F922C7DD153" directorySegmentName="seg_0">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>STATUSID_TRG</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 17:10:18 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;  v_id status.statusid%TYPE;&lt;br/&gt;BEGIN&lt;br/&gt;  -- Select a new value from the sequence into a local variable. As David&lt;br/&gt;  -- commented, this step is optional. You can directly select into :new.qname_id&lt;br/&gt;  SELECT status_seq.nextval INTO v_id FROM DUAL;&lt;br/&gt;&lt;br/&gt;  -- :new references the record that you are about to insert into qname. Hence,&lt;br/&gt;  -- you can overwrite the value of :new.qname_id (qname.qname_id) with the value&lt;br/&gt;  -- obtained from your sequence, before inserting&lt;br/&gt;  :NEW.statusid := v_id;&lt;br/&gt;END STATUSID_TRG;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>7FA7C775-8AA2-5E8C-D91A-A81EC4048787</owner>
+<table>94E61DD5-E98C-53A6-D5F0-7419ACF6DFCC</table>
+</TriggerOraclev10g>
