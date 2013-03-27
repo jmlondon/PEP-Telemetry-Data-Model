@@ -1,6 +1,8 @@
 PEP Telemetry Data Model
 =================
 
+*This is a working document/repository. Thoughts are not fully formed and edits are not finalized* 
+
 Josh M. London  
 Polar Ecosystem Program  
 National Marine Mammal Laboratory, Alaska Fisheries Science Center  
