@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="D7481F9A-0DC0-FB9D-3A35-0539FB1F73CF" directorySegmentName="seg_0" name="PEPDEPLOYMENTS_PEPCAPTUREDATA_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="D7481F9A-0DC0-FB9D-3A35-0539FB1F73CF" directorySegmentName="seg_0" name="DEPLOYMENTS_CAPTUREDATA_FK">
 <sourceConnName>test_peptel</sourceConnName>
 <sourceObjSchema>PEPTEL</sourceObjSchema>
 <sourceObjName>PEPDEPLOYMENTS_PEPCAPTUREDATA_FK</sourceObjName>

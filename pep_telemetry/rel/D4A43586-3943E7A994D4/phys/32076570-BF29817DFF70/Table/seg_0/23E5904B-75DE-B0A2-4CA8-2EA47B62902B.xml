@@ -99,6 +99,14 @@
 <ownerDesignName>pep_telemetry</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PEPSAMPLES_PK" id="F75EB0D7-8CBC-F2E8-5C46-1D1CD88E8E47">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 21:23:01 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<tableSpace>C3B75F49-87DA-F5C5-8C5B-3AF937851857</tableSpace>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PEPSAMPLES_PEPCAPTUREDATA_FK" id="1F60D7B2-CFFC-B756-4FF0-D5D097D5012A">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>

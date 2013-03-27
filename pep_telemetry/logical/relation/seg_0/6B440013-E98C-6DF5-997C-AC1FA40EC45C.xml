@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPLOYMENTS_CAPTUREDATA_FK" id="44EA9F95-5543-AADF-6833-8694CF8B20AF" directorySegmentName="seg_0">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HISTOS_PEPDEPLOYMENTS_FK" id="6B440013-E98C-6DF5-997C-AC1FA40EC45C" directorySegmentName="seg_0">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
-<createdTime>2013-03-27 18:47:24 UTC</createdTime>
-<generatorID>D7481F9A-0DC0-FB9D-3A35-0539FB1F73CF</generatorID>
+<createdTime>2013-03-27 19:43:58 UTC</createdTime>
+<generatorID>B0C91FB7-62DD-1EB4-3950-4E9163D6E801</generatorID>
 <ownerDesignName>pep_telemetry</ownerDesignName>
 <engineerTo>
 <item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
@@ -11,8 +11,8 @@
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>07247577-4FA1-C27B-1EB2-315E72B4B00D</sourceEntity>
+<sourceEntity>2BD29904-C069-8BCA-C9D2-31AD06AE0EE3</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>2BD29904-C069-8BCA-C9D2-31AD06AE0EE3</targetEntity>
+<targetEntity>2B526CE1-0681-5184-0554-920E1AA5B832</targetEntity>
 <transferable>true</transferable>
 </Relation>

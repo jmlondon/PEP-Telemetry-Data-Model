@@ -1,5 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="75421ABC-C6A6-B89D-20C6-D38A5CD917E4" directorySegmentName="seg_0" name="STATUS_PEPDEPLOYMENTS_FK">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>STATUS_PEPDEPLOYMENTS_FK</sourceObjName>
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 18:15:02 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>

@@ -479,6 +479,11 @@
 <createdTime>2013-03-27 18:14:01 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
 </ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HISTOS_PEPDEPLOYMENTS_FK" id="BD3567FD-A00E-37AE-63D0-6B10E32BDD28">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 19:42:29 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTOS_PK" id="76822D47-CAE1-224E-349B-78612C9C33EE">

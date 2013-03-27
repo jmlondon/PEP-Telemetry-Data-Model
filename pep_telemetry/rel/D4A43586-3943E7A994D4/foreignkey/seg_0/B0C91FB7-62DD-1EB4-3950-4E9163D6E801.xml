@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="E74A82BD-5A4F-1395-9934-4B8A90C26256" directorySegmentName="seg_0" name="HISTOS_PEPCAPTUREDATA_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="B0C91FB7-62DD-1EB4-3950-4E9163D6E801" directorySegmentName="seg_0" name="HISTOS_PEPDEPLOYMENTS_FK">
 <sourceConnName>test_peptel</sourceConnName>
 <sourceObjSchema>PEPTEL</sourceObjSchema>
-<sourceObjName>HISTOS_PEPCAPTUREDATA_FK</sourceObjName>
+<sourceObjName>HISTOS_PEPDEPLOYMENTS_FK</sourceObjName>
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
-<createdTime>2013-03-27 18:14:01 UTC</createdTime>
+<createdTime>2013-03-27 19:42:29 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
 <containerWithKeyObject>A3716C31-ED2A-CE1F-0A1F-A07EE085D914</containerWithKeyObject>
 <deleteRule>NO ACTION</deleteRule>
-<localFKIndex>B2B42E90-BE71-DDD9-8CD4-8853F33C1ACE</localFKIndex>
-<keyObject>30B6630F-7A75-77DB-FDDA-213D275014BC</keyObject>
+<localFKIndex>BD3567FD-A00E-37AE-63D0-6B10E32BDD28</localFKIndex>
+<keyObject>4412DF9D-B5EC-01F4-1617-108AF16FCDC8</keyObject>
 <mandatory>true</mandatory>
 <transferable>true</transferable>
 </FKIndexAssociation>

@@ -68,12 +68,12 @@
 <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DEPLOYID" id="44CC49E7-5BAC-077D-D7DB-E411BB201575">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:14:00 UTC</createdTime>
-<generatorID>0D8E7432-CB4E-95D6-8A9C-087F334C21F6</generatorID>
+<generatorID>6B440013-E98C-6DF5-997C-AC1FA40EC45C</generatorID>
 <ownerDesignName>pep_telemetry</ownerDesignName>
 <engineerTo>
 <item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0E953581-2DCE-7299-68DE-49C10080289B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

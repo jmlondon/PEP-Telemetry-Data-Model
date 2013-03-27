@@ -162,7 +162,7 @@
 <colUsage columnID="857A0D12-C468-186D-F757-402E9D3DFCEA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CEDE2FE2-7029-5922-5B48-618918CB4365" name="PEPDEPLOYMENTS_PEPCAPTUREDATA_FK">
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CEDE2FE2-7029-5922-5B48-618918CB4365" name="DEPLOYMENTS_CAPTUREDATA_FK">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:16:53 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>

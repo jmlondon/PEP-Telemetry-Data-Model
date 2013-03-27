@@ -64,12 +64,15 @@
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:10:17 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>19 BYTE</dataTypeSize>
+<delegate>857A0D12-C468-186D-F757-402E9D3DFCEA</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0C91FB7-62DD-1EB4-3950-4E9163D6E801" referredColumn="857A0D12-C468-186D-F757-402E9D3DFCEA"/>
+</associations>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPENO" id="DB99270E-1F83-1CDD-D19C-A1CDE6E016D3">
 <sourceConnName>test_peptel</sourceConnName>
@@ -1355,6 +1358,15 @@
 <indexState>Foreign Key</indexState>
 <indexColumnUsage>
 <colUsage columnID="DB99270E-1F83-1CDD-D19C-A1CDE6E016D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="BD3567FD-A00E-37AE-63D0-6B10E32BDD28" name="HISTOS_PEPDEPLOYMENTS_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 19:42:29 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="0D8E7432-CB4E-95D6-8A9C-087F334C21F6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

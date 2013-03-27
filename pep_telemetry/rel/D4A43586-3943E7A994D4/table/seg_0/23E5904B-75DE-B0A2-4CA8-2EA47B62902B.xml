@@ -51,7 +51,6 @@
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:10:17 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -311,6 +310,15 @@
 <schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="985B310B-02D7-66ED-D4BC-6BC6B69235D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F75EB0D7-8CBC-F2E8-5C46-1D1CD88E8E47" name="PEPSAMPLES_PK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 21:23:01 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
 <indexColumnUsage>
 <colUsage columnID="985B310B-02D7-66ED-D4BC-6BC6B69235D9"/>
 </indexColumnUsage>

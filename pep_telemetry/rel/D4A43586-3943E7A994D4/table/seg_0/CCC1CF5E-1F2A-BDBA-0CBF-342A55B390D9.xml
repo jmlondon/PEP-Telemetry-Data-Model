@@ -135,15 +135,11 @@
 </Column>
 </columns>
 <indexes>
-<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FE23E423-A936-7EB3-102D-177FE2B07CD9" name="GEOMETRY_COLUMNS_F_TABLE_SCHEMA_F_TABLE_NAME_F_GEOMETRY_COLUMN_UN">
-<sourceConnName>test_peptel</sourceConnName>
-<sourceObjSchema>PEPTEL</sourceObjSchema>
-<sourceObjName>SYS_C00299325</sourceObjName>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5DB92106-27C9-D465-0E30-D05A1F835DD5" name="GEOMETRY_COLUMNS__IDX">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
-<createdTime>2013-03-27 17:10:17 UTC</createdTime>
+<createdTime>2013-03-27 21:26:43 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
-<schemaObject>C70FBE09-E72D-4A34-22F3-23C719A4F7FF</schemaObject>
-<indexState>Unique Constraint</indexState>
+<indexState>Unique Plain Index</indexState>
 <indexColumnUsage>
 <colUsage columnID="088555FD-C747-BFC1-42D7-DD25B43ECCED"/>
 <colUsage columnID="F39A118C-BE02-C8DF-EDDC-028610CEC206"/>

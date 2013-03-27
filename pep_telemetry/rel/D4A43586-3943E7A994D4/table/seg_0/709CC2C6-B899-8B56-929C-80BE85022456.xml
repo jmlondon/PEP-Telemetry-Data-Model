@@ -274,6 +274,9 @@
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="74177071-EC49-E9AB-961C-FBA39A977F2A" name="PEPMORPHS__PK">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>PEPMORPHS__PK</sourceObjName>
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 18:18:15 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
