@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DRYTIME_LOCS_PEPDEPLOYMENTS_FK" id="191FD781-6528-E7A5-6DC4-F1E9A933A9C8" directorySegmentName="seg_0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:47:24 UTC</createdTime>
+<generatorID>E13A4E58-CEFE-A139-62D9-5A2109EF8528</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2BD29904-C069-8BCA-C9D2-31AD06AE0EE3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16AA762C-621B-AF88-89E5-E74F7A9D742B</targetEntity>
+<transferable>true</transferable>
+</Relation>

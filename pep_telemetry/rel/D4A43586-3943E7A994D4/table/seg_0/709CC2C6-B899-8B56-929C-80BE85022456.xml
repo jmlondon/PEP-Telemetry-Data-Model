@@ -273,6 +273,15 @@
 <colUsage columnID="D32CF7ED-2229-6580-C947-A8E01728FB25"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="74177071-EC49-E9AB-961C-FBA39A977F2A" name="PEPMORPHS__PK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:18:15 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="D32CF7ED-2229-6580-C947-A8E01728FB25"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="8FBDDE3D-38E2-8F80-E572-7027F0E9DB7E" name="PEPMORPHS_PEPCAPTUREDATA_FK">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:26:18 UTC</createdTime>

@@ -16,4 +16,15 @@
    <object objectType="Entity" objectID="0053EB34-B95E-F854-9C47-DEE72E30BF3A" name="STATUS" seqName="seg_0"/>
    <object objectType="Entity" objectID="ED08E98B-B7B6-4A79-A8BD-368B2D429106" name="TAD" seqName="seg_0"/>
    <object objectType="EntityView" objectID="B779B905-5B6E-A3AE-B615-5F2AEAC5E083" name="LOCATIONS_REPRO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C580E88A-1A7D-09D8-D9B4-D941FA9B78CF" name="DRYTIME_LOCS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="191FD781-6528-E7A5-6DC4-F1E9A933A9C8" name="DRYTIME_LOCS_PEPDEPLOYMENTS_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B08DCB22-E493-7A13-108D-AC133949BBF8" name="HISTOS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="174AD1A2-DB2E-DBB9-7044-D0B07C15C57D" name="LOCATIONS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="44EA9F95-5543-AADF-6833-8694CF8B20AF" name="PEPDEPLOYMENTS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B22AF933-A8ED-D331-A318-7760DD0D1AEE" name="PEPDEPLOYMENTS_PEPTAGINFO_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7C618592-FEFB-2E38-53A9-84751829A819" name="PEPDRUGS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="087A1040-54D2-0949-41D9-0089DADE4094" name="PEPMORPHS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="16188935-19A5-88F7-39B8-A96D2E5E2734" name="PEPSAMPLES_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B405F756-83E1-15D6-12DA-0DFE648317EB" name="STATUS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="41E994E7-EF60-B9D0-9221-6E2FD634E88C" name="STATUS_PEPDEPLOYMENTS_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

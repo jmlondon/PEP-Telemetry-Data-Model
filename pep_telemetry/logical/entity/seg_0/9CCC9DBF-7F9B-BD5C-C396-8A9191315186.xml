@@ -55,15 +55,16 @@
 <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SPENO" id="781AC7F4-CB35-7AC8-8C48-1BA3EF5082E2">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:14:00 UTC</createdTime>
-<generatorID>D32CF7ED-2229-6580-C947-A8E01728FB25</generatorID>
+<generatorID>087A1040-54D2-0949-41D9-0089DADE4094</generatorID>
 <ownerDesignName>pep_telemetry</ownerDesignName>
 <engineerTo>
 <item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
 </engineerTo>
+<referedAttribute>80D40399-AA2C-C76E-6052-3E3E9C262753</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255 BYTE</dataTypeSize>
+<dataTypeSize>11 BYTE</dataTypeSize>
 </Attribute>
 <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="STDLENGTH" id="D9623553-7EDC-3F55-AB60-909C540AB996">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>

@@ -45,7 +45,7 @@
 </ColumnProxy>
 </columnProxies>
 <indexProxies>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PEPDRUGS__IDXv1" id="BF671510-220D-53A5-0F27-EF05222107A4">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PEPDRUGS__PK" id="BF671510-220D-53A5-0F27-EF05222107A4">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:37:46 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEPDRUGS_PEPCAPTUREDATA_FK" id="7C618592-FEFB-2E38-53A9-84751829A819" directorySegmentName="seg_0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:47:24 UTC</createdTime>
+<generatorID>D253636C-76CF-2DAC-C9C2-65C12DA8B1AE</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07247577-4FA1-C27B-1EB2-315E72B4B00D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>46479CDC-0896-82DB-B40E-07805551575E</targetEntity>
+<transferable>true</transferable>
+</Relation>

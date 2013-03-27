@@ -473,6 +473,13 @@
 <tableSpace>C3B75F49-87DA-F5C5-8C5B-3AF937851857</tableSpace>
 </IndexProxy>
 </indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HISTOS_PEPCAPTUREDATA_FK" id="B2B42E90-BE71-DDD9-8CD4-8853F33C1ACE">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:14:01 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTOS_PK" id="76822D47-CAE1-224E-349B-78612C9C33EE">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>

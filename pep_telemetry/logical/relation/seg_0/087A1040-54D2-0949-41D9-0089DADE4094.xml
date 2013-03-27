@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEPMORPHS_PEPCAPTUREDATA_FK" id="087A1040-54D2-0949-41D9-0089DADE4094" directorySegmentName="seg_0">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:47:24 UTC</createdTime>
+<generatorID>D7257EA0-33A9-4844-71E6-A80B270C3D82</generatorID>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<engineerTo>
+<item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
+</engineerTo>
+<dominantRole>07247577-4FA1-C27B-1EB2-315E72B4B00D</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07247577-4FA1-C27B-1EB2-315E72B4B00D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9CCC9DBF-7F9B-BD5C-C396-8A9191315186</targetEntity>
+<transferable>true</transferable>
+</Relation>

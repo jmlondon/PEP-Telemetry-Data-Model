@@ -55,11 +55,12 @@
 <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DEPLOYID" id="A478D6D7-9280-3FAD-DE8D-DA5885C0F841">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:14:00 UTC</createdTime>
-<generatorID>5360651E-E687-3211-EC2C-CECAC408922F</generatorID>
+<generatorID>191FD781-6528-E7A5-6DC4-F1E9A933A9C8</generatorID>
 <ownerDesignName>pep_telemetry</ownerDesignName>
 <engineerTo>
 <item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
 </engineerTo>
+<referedAttribute>0E953581-2DCE-7299-68DE-49C10080289B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -68,11 +69,12 @@
 <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SPENO" id="A54CFC3A-E213-3D1B-B314-0E398805C301">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:14:00 UTC</createdTime>
-<generatorID>06799B25-A7EA-492A-84AF-6341FA85C55D</generatorID>
+<generatorID>C580E88A-1A7D-09D8-D9B4-D941FA9B78CF</generatorID>
 <ownerDesignName>pep_telemetry</ownerDesignName>
 <engineerTo>
 <item key="D4A43586-65BC-3A8A-BC2E-3943E7A994D4" value="true"/>
 </engineerTo>
+<referedAttribute>80D40399-AA2C-C76E-6052-3E3E9C262753</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

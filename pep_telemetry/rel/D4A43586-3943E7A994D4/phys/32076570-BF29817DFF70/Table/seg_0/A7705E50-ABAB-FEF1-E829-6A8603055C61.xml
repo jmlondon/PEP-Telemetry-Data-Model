@@ -113,6 +113,13 @@
 <tableSpace>C3B75F49-87DA-F5C5-8C5B-3AF937851857</tableSpace>
 </IndexProxy>
 </indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LOCATIONS_PEPCAPTUREDATA_FK" id="FC881329-FB53-896E-D69A-D5EB691DB323">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:13:29 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOCATIONS_PK" id="7269A6AA-78B0-2C6A-3F8F-77A45D94235E">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>

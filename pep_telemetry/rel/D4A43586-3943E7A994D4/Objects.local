@@ -17,9 +17,15 @@
    <object objectType="Table" objectID="94E61DD5-E98C-53A6-D5F0-7419ACF6DFCC" name="STATUS" seqName="seg_0"/>
    <object objectType="Table" objectID="1A516786-BED4-7B0F-376A-53D0B4373017" name="TAD" seqName="seg_0"/>
    <object objectType="View" objectID="380A2CCB-5344-2971-FA7B-DDB0B88C81A4" name="LOCATIONS_REPRO" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="529DEF3D-D88D-FAC7-071A-A028E514339A" name="PEPDEPLOYMENTS_PEPTAGINFO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E13A4E58-CEFE-A139-62D9-5A2109EF8528" name="DRYTIME_LOCS_PEPDEPLOYMENTS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5CB85525-4B94-3BB2-3A41-66FB934DD633" name="DRYTIME_LOCS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E74A82BD-5A4F-1395-9934-4B8A90C26256" name="HISTOS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BBD2E8BC-ABD3-BA50-BD66-335070250891" name="LOCATIONS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="D7481F9A-0DC0-FB9D-3A35-0539FB1F73CF" name="PEPDEPLOYMENTS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="529DEF3D-D88D-FAC7-071A-A028E514339A" name="PEPDEPLOYMENTS_PEPTAGINFO_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="D253636C-76CF-2DAC-C9C2-65C12DA8B1AE" name="PEPDRUGS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="D7257EA0-33A9-4844-71E6-A80B270C3D82" name="PEPMORPHS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="BA2DB576-A272-5E85-AE7C-8129D005BFDD" name="PEPSAMPLES_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3A1B81F1-4AE7-54E8-0FE8-E91B8D3B3E8A" name="STATUS_PEPCAPTUREDATA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="75421ABC-C6A6-B89D-20C6-D38A5CD917E4" name="STATUS_PEPDEPLOYMENTS_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

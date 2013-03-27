@@ -79,4 +79,16 @@
 <ownerDesignName>pep_telemetry</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DRYTIME_LOCS_PEPDEPLOYMENTS_FK" id="203A4599-B54C-40C3-A6F7-F67319FC1DA5">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:45:27 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DRYTIME_LOCS_PEPCAPTUREDATA_FK" id="CE17CBD3-ADCE-1A9D-9CCD-39D84C90487E">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:45:46 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
 </TableProxyOraclev11g>

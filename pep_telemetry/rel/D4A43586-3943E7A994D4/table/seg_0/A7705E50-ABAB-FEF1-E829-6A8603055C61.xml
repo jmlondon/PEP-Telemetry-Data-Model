@@ -96,7 +96,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11 BYTE</dataTypeSize>
+<delegate>E124AF59-663B-572A-A91A-B7FCFEE81497</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBD2E8BC-ABD3-BA50-BD66-335070250891" referredColumn="E124AF59-663B-572A-A91A-B7FCFEE81497"/>
+</associations>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROJECTID" id="4BA89BE5-C0AB-2F71-E12B-2CDDCD86D019">
 <sourceConnName>test_peptel</sourceConnName>
@@ -334,6 +338,15 @@
 <indexState>Unique Plain Index</indexState>
 <indexColumnUsage>
 <colUsage columnID="13C49EE1-B7DF-BB07-D787-36A6B7198E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FC881329-FB53-896E-D69A-D5EB691DB323" name="LOCATIONS_PEPCAPTUREDATA_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:13:29 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="5F4BFFA4-C170-244A-28C6-36A11F2F082D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

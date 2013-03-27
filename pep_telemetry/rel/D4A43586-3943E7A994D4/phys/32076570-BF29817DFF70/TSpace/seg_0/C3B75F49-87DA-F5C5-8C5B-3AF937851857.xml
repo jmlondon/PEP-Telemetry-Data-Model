@@ -1,11 +1,50 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" id="C3B75F49-87DA-F5C5-8C5B-3AF937851857" directorySegmentName="seg_0">
 <sourceConnName>test_peptel</sourceConnName>
-<sourceObjSchema>PEPTEL</sourceObjSchema>
 <sourceObjName>USERS</sourceObjName>
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:10:16 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
 <emUniformSize>0</emUniformSize>
 <extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<fileType>SMALLFILE</fileType>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="users01.dbf" id="1776E6BA-1743-DE14-7F3C-8CAE9403EE46">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjName>/oradata/afsc2/users01.dbf</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:04:47 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>/oradata/afsc2/users01.dbf</fileName>
+<nextBlockSize>640</nextBlockSize>
+<size>33553408</size>
+</DataFile>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="users02.dbf" id="45BC184D-35D7-718A-E4FA-A1C6A4B4E0BF">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjName>/oradata/afsc2/users02.dbf</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:04:47 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>/oradata/afsc2/users02.dbf</fileName>
+<nextBlockSize>8</nextBlockSize>
+<size>33553408</size>
+</DataFile>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="users03.dbf" id="408786AF-9435-ED1A-9AE6-517C7259B1DF">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjName>/oradata/afsc2/users03.dbf</sourceObjName>
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:04:47 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>/oradata/afsc2/users03.dbf</fileName>
+<nextBlockSize>8</nextBlockSize>
+<size>102400</size>
+</DataFile>
+</dataFiles>
 </TableSpaceOraclev10g>

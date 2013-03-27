@@ -253,6 +253,18 @@
 <tableSpace>C3B75F49-87DA-F5C5-8C5B-3AF937851857</tableSpace>
 </IndexProxy>
 </indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="STATUS_PEPDEPLOYMENTS_FK" id="04833049-B011-5542-B2B8-AD7A435B18CD">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:15:02 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="STATUS_PEPCAPTUREDATA_FK" id="B6BBC78B-9975-ACA0-890C-CC14EAE1EC6A">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:15:28 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STATUS_PK" id="E3CED467-FF95-F357-1290-1B3A71028FE4">
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>

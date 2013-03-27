@@ -82,7 +82,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11 BYTE</dataTypeSize>
+<delegate>E124AF59-663B-572A-A91A-B7FCFEE81497</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E74A82BD-5A4F-1395-9934-4B8A90C26256" referredColumn="E124AF59-663B-572A-A91A-B7FCFEE81497"/>
+</associations>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PTT" id="4BCA1E9B-4211-0BBE-A311-C3196E9CA81A">
 <sourceConnName>test_peptel</sourceConnName>
@@ -1342,6 +1346,15 @@
 <indexState>Unique Plain Index</indexState>
 <indexColumnUsage>
 <colUsage columnID="5F42A478-58D4-7138-719E-EF79846D1B74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B2B42E90-BE71-DDD9-8CD4-8853F33C1ACE" name="HISTOS_PEPCAPTUREDATA_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:14:01 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DB99270E-1F83-1CDD-D19C-A1CDE6E016D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

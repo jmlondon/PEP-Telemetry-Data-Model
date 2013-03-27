@@ -198,9 +198,9 @@
 		<apply_naming_std value="false"/>
 		<use_pref_abbreviation value="true"/>
 		<upload_directory value=""/>
-		<date_format value="YYYY/MM/DD HH24:MI:SS"/>
-		<timestamp_format value="YYYY/MM/DD HH24:MI:SS.FF"/>
-		<timestamp_tz_format value="YYYY/MM/DD HH24:MI:SS.FFTZH:TZM"/>
+		<date_format value="YYYY-MM-DD HH24:MI:SS"/>
+		<timestamp_format value="YYYY-MM-DD HH24:MI:SS.FF"/>
+		<timestamp_tz_format value="YYYY-MM-DD HH24:MI:SS.FFTZH:TZM"/>
 	</engineering_params>
 	<eng_compare show_sel_prop_only="true" not_apply_for_new_objects="true" exclude_from_tree="false">
 		<entity_table>

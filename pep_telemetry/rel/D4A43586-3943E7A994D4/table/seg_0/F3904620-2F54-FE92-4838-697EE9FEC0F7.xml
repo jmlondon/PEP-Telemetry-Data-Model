@@ -55,7 +55,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>19 BYTE</dataTypeSize>
+<delegate>857A0D12-C468-186D-F757-402E9D3DFCEA</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E13A4E58-CEFE-A139-62D9-5A2109EF8528" referredColumn="857A0D12-C468-186D-F757-402E9D3DFCEA"/>
+</associations>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPENO" id="06799B25-A7EA-492A-84AF-6341FA85C55D">
 <sourceConnName>test_peptel</sourceConnName>
@@ -68,7 +72,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11 BYTE</dataTypeSize>
+<delegate>E124AF59-663B-572A-A91A-B7FCFEE81497</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CB85525-4B94-3BB2-3A41-66FB934DD633" referredColumn="E124AF59-663B-572A-A91A-B7FCFEE81497"/>
+</associations>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPECIES" id="F1D610BF-2253-D971-50E5-3C5BCBD9DBCE">
 <sourceConnName>test_peptel</sourceConnName>
@@ -241,4 +249,24 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="203A4599-B54C-40C3-A6F7-F67319FC1DA5" name="DRYTIME_LOCS_PEPDEPLOYMENTS_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:45:27 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="5360651E-E687-3211-EC2C-CECAC408922F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CE17CBD3-ADCE-1A9D-9CCD-39D84C90487E" name="DRYTIME_LOCS_PEPCAPTUREDATA_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:45:46 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="06799B25-A7EA-492A-84AF-6341FA85C55D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

@@ -64,12 +64,15 @@
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:10:17 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>19 BYTE</dataTypeSize>
+<delegate>857A0D12-C468-186D-F757-402E9D3DFCEA</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75421ABC-C6A6-B89D-20C6-D38A5CD917E4" referredColumn="857A0D12-C468-186D-F757-402E9D3DFCEA"/>
+</associations>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPENO" id="E8FE03B6-9FFA-1490-2C4C-EFBCE0A0FA80">
 <sourceConnName>test_peptel</sourceConnName>
@@ -78,12 +81,15 @@
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:10:17 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11 BYTE</dataTypeSize>
+<delegate>E124AF59-663B-572A-A91A-B7FCFEE81497</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A1B81F1-4AE7-54E8-0FE8-E91B8D3B3E8A" referredColumn="E124AF59-663B-572A-A91A-B7FCFEE81497"/>
+</associations>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PTT" id="DDD89D39-F1AC-F947-B734-8B66586F18B2">
 <sourceConnName>test_peptel</sourceConnName>
@@ -734,6 +740,24 @@
 <indexState>Unique Plain Index</indexState>
 <indexColumnUsage>
 <colUsage columnID="5C9168E4-DCCD-23A7-6246-F2630C65E9CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="04833049-B011-5542-B2B8-AD7A435B18CD" name="STATUS_PEPDEPLOYMENTS_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:15:02 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="EB709E37-C3EF-6BB2-30D9-8A7300FE036F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B6BBC78B-9975-ACA0-890C-CC14EAE1EC6A" name="STATUS_PEPCAPTUREDATA_FK">
+<createdBy>Josh.London@afsc.noaa.gov</createdBy>
+<createdTime>2013-03-27 18:15:28 UTC</createdTime>
+<ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="E8FE03B6-9FFA-1490-2C4C-EFBCE0A0FA80"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -146,19 +146,27 @@
 </columns>
 <indexes>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CBD2C7E6-D3DD-0BBD-B84A-1AABADF915B2" name="PEPDRUGS_PK">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>PEPDRUGS_PK</sourceObjName>
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:36:48 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="83AF5541-2D5E-1042-323F-47D6910DD6B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="BF671510-220D-53A5-0F27-EF05222107A4" name="PEPDRUGS__IDXv1">
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="BF671510-220D-53A5-0F27-EF05222107A4" name="PEPDRUGS__PK">
+<sourceConnName>test_peptel</sourceConnName>
+<sourceObjSchema>PEPTEL</sourceObjSchema>
+<sourceObjName>PEPDRUGS__IDXv1</sourceObjName>
 <createdBy>Josh.London@afsc.noaa.gov</createdBy>
 <createdTime>2013-03-27 17:37:46 UTC</createdTime>
 <ownerDesignName>pep_telemetry</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
 <indexColumnUsage>
 <colUsage columnID="83AF5541-2D5E-1042-323F-47D6910DD6B8"/>
 </indexColumnUsage>
