@@ -6,7 +6,7 @@ PEP Telemetry Data Model
 Introduction
 ----------------------
 
-The NMML Polar Ecosystems Program (PEP) telemetry data model represents the Oracle 11g database structure and objects used to store and process data from telemetry devices deployed on seals. All of the telemetry devices are produced by [Wildlife Computers](http://www.wildlifecomputers.com) (Redmond, Washington, USA). Thus, the current structure and fields within the database entities is closely tied to the strucutre of the csv files produced by the WC-DAP software. The database design can be roughly divided into three sections.
+The NMML Polar Ecosystems Program (PEP) telemetry data model represents the Oracle 11g database structure and objects used to store and process data from telemetry devices deployed on seals. All of the telemetry devices are produced by [Wildlife Computers](http://www.wildlifecomputers.com) (Redmond, Washington, USA). Thus, the current structure and fields within the database entities are closely tied to the strucutre of the csv files produced by the WC-DAP software. The database design can be roughly divided into three sections.
 
 1. seal capture, morphometrics and sampling data
 2. input and processing of WC-DAP files via external tables
