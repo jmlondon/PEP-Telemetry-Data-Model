@@ -23,8 +23,7 @@ Files and documentation related to the Argos program and, especially, Argos WebS
 
 ### Seal capture, morphometrics and sampling data
 
-#### Key Database Tables
-
+**Key Database Tables**
 `pepcapturedata`,`pepmorphs`,`pepsamples`,`pepdrugs`
 
 ### Input and processing of WC-DAP files via external tables
@@ -37,19 +36,16 @@ Prior to ingestion of data into the Oracle database, the raw data distributed fr
 
 #### Ingesting Oracle External Tables and Processing New Data
 
-##### Key Database Tables
-
+**Key Database Tables**
 `extargos`,`exthistos`,`extlocations`,`extstatus`,`histos`,`locations`,  
 `drytimes`,`drytimes_20`,`divedepth`,`tad`,`status`,`xtargos_reprocess`,`locations_repro`
 
-##### Stored Procedures to Update With New Data
-
+**Stored Procedures to Update With New Data**
 `updatehistos`,`updatelocations`,`updatestatus`
 
 ### Tag deployments and tag inventory
 
-#### Key Database Tables
-
+**Key Database Tables**
 `pepdeployments`,`peptaginfo`
 
 ### Geo-spatial Data and Processing
