@@ -38,6 +38,8 @@ Currently, data are obtained via two methods: weekly sftp transfer and monthly C
 
 Data from Argos have come in various formats over the years. Until recently, the format was a coded ASCII message that required special parsing to decode. Currently, data are distributed in a more conventional CSV format and each record in the CSV corresponds to an estimated location from a given satellite pass. However, animal telemetry tags also transmit behavior (e.g. dive, haul-out, surface time) and, due to bandwidth restrictions, these data are encoded and software from the tag manufacturer is required to decode.
 
+Data are stored as either text files copied from the monthly distribution CDs, CSV files copied from the monthly distribution CDs, or data files directly downloaded from the Argos sftp or telnet services. All of these files are stored in a single directory. WC-DAP is directed to process all files and recreate the output CSV files every time the command is run. This results in some inefficiencies, but assures that the output data from all deployments are processed with the same software version and processing algorithms.
+
 #### Processing Data with WC-DAP and AMD.exe
 
 Wildlife Computers provides software for the decoding and processing of telemetry data from their tags. Two options are available, in general: use the WC-DAP GUI for manual loading and processing of data, automate/script the processing using the amd.exe command line interface. We have opted to implement a solution based on the later.
